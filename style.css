@@ -110,10 +110,6 @@ a:hover{
     background-size:100% 100%;
     text-align: center;
     overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .skill-sticky{
     position: sticky;
@@ -180,6 +176,7 @@ a:hover{
     #about{
         background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/images/about\ sm.jpg) no-repeat; 
         background-size: cover;
+        font-size: 50px;
     }
     #skills{
         background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/images/skills\ sm.jpg) no-repeat;
