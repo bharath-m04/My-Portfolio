@@ -43,6 +43,8 @@ a:hover{
 }
 .navline li:hover::after{
     width: 100%;
+    color: #ff0000 !important;
+    font-weight: 500;
 }
 
 #home{
@@ -181,6 +183,13 @@ a:hover{
     #skills{
         background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/images/skills\ sm.jpg) no-repeat;
         background-size:100% 100%;
+    }
+    .card{
+        height: 350px;
+    }
+    .card img{
+        padding:10px 0 0 0;
+        height:150px;
     }
 }
 @media (max-width:991px) {
