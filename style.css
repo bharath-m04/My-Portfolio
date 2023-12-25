@@ -59,8 +59,9 @@ a:hover{
     gap: 100px;
 }
 #home img{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
     height: auto;
-    width: 170px;
+    width: 168px;
     border-radius: 50%;
     position: absolute;
     left: 50%;
@@ -85,12 +86,12 @@ a:hover{
         border:none;
     }
     80%{
-        border-bottom: 2px solid #ffffff;
+        border-bottom: 3px solid #00ffaa;
         transform: rotate(360deg);
     }
     90%{
         border-bottom: 2px solid #000000;
-        transform: rotate(360deg);
+        transform: rotate(400deg);
     }
     
 }
@@ -105,12 +106,13 @@ a:hover{
     align-items: center;
     flex-direction: column;
 }
+
 #skills{
-    height:700px;
+    height:100vh;
     width:100%;
     margin: auto;
     background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/images/skills.jpg) no-repeat;
-    background-size:100% 100%;
+    background-size:cover;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -177,7 +179,7 @@ footer h3{
 @media (max-width:801px) {
 
     .card{
-        height: 300px;
+        height: 330px;
         width: 70vw !important;
     }
     #home{
@@ -187,16 +189,13 @@ footer h3{
     #about{
         background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/images/about\ sm.jpg) no-repeat; 
         background-size: cover;
-        font-size: 50px;
     }
     #skills{
         
         background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(/images/skills\ sm.jpg) no-repeat;
-        background-size:100% 100%;
+        background-size:cover;
     }
-    .card{
-        height: 370px;
-    }
+    
     .card img{
         padding:10px 0 0 0;
         height:150px;
@@ -220,9 +219,11 @@ footer h3{
 @media (max-width:490px) {
     #about{
         height: 100%;
+        padding: 20px 20px 0 20px !important;
     }
     #about p{
-        font-size: 5px;
+        font-size: 20px !important;
+        
     }
     footer h3{
         font-size: 10px;
@@ -244,7 +245,6 @@ footer h3{
     }
 }
 @media (min-width:750px) {
-    
     #contact ul{
         justify-content: center;
         gap: 100px;
