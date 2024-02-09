@@ -86,7 +86,8 @@ a:hover{
         border:none;
     }
     80%{
-        border-bottom: 4px solid rgb(43, 132, 248);
+        border-bottom: 6px solid rgb(255, 0, 0);
+        box-shadow: 0px 0px 10px rgb(255, 0, 0) ;
         transform: rotate(360deg);
     }
     90%{
