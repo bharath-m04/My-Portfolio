@@ -74,8 +74,8 @@ a:hover{
     position: relative;
 }
 #home .borderAnimation{
-    height: 172px;
-    width: 172px;
+    height: 171px;
+    width: 171px;
     animation: imageAnimation 3s ease-in infinite;
     border-radius: 50%;
     left: 0;
